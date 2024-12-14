@@ -1,2 +1,2 @@
 # download_manager
-Parallel project for the fifth year
+Download manager with Python to download multiple files (with their direct urls) in the same time with multithreading.
