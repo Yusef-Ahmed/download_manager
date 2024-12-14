@@ -1,19 +1,21 @@
 from tkinter import filedialog
 import requests
 
+
 def handle_file_name(url):
     try:
         path = requests.get(url, stream=True).headers.get(
-                "Content-Disposition") or "filename='UnKnown.abc'"
+            "Content-Disposition") or "filename='UnKnown.abc'"
         path = path.split("filename=")[-1][1:-1]
         extension = "." + path.split('.')[-1]
         path = path.encode('latin1').decode('utf-8')
-        return path,extension
+        return path, extension
     except Exception as e:
-        return None,None
-    
+        return None, None
+
+
 def handle_file_path(url):
-    path,extension = handle_file_name(url)
+    path, extension = handle_file_name(url)
     if path:
         file_path = filedialog.asksaveasfilename(
             filetypes=[("All files", "*.*")],
@@ -21,4 +23,3 @@ def handle_file_path(url):
             initialfile=path)
         return file_path
     return None
-    

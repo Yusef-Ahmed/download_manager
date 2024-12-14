@@ -6,5 +6,5 @@ root = tk.Tk()
 root.title("Parallel Downloader")
 root.configure(background='#242424')
 
-app = DownloadManager(root,2)
+app = DownloadManager(root, 2)
 root.mainloop()
