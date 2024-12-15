@@ -87,6 +87,11 @@ parallel-downloader/
 
 ### Activity Diagram
 
+![WhatsApp Image 2024-12-15 at 12 51 20](https://github.com/user-attachments/assets/3e4e2096-d0a8-4804-9298-6b99ea37601d)
+
+----------------------------------------------------------------------------------------------------
+![WhatsApp Image 2024-12-15 at 12 55 11](https://github.com/user-attachments/assets/31565e62-2aaf-4123-a70a-17d08971dea7)
+
 
 
 ---
