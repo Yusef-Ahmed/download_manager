@@ -86,4 +86,8 @@ class DownloadManager:
             )
             self.threads.append(thread)
             thread.start()
+        
+        # for thread in self.threads:
+        #    thread.join()
+
         self.clearing()
