@@ -28,7 +28,7 @@ Ensure the following are installed:
 - Python 3.7 or higher
 - Required Python libraries:
   ```bash
-  pip install tkinter requests
+  pip install requests
   ```
 
 ---
@@ -38,13 +38,13 @@ Ensure the following are installed:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Yusef-Ahmed/download_manager.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd parallel-downloader
+   cd download_manager
    ```
 
 3. Run the application:
@@ -61,7 +61,8 @@ Ensure the following are installed:
 2. Click **Add URL** to input a download URL.
 3. (Optional) Add more URLs as needed.
 4. Click **Start Downloads** to begin downloading all added URLs.
-5. Monitor progress using the displayed progress bars and labels.
+5. Write file/s name/s (tip: specify the needed extension e.g. .mp3 for audio or .mp4 for video).
+6. Monitor progress using the displayed progress bars and labels.
 
 ---
 
@@ -81,6 +82,7 @@ parallel-downloader/
 
 ### Sequence Diagram
 
+![SequenceDiagram(2)](https://github.com/user-attachments/assets/0713b984-7b99-42d8-a08d-eda349b3a16b)
 
 
 ### Activity Diagram
